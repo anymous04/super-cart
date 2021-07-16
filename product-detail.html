@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title> All Products-red store</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container">
+
+<div class="navbar">
+<div class="logo">
+<img src="images/logo.png" width="125px">
+</div>
+<nav>
+<ul id ="menuitems">
+	<li><a href="index.html">HOME</a></li>
+	<li><a href="#">PRODUCTS</a></li>
+	<li><a href="#">ABOUT</a></li>
+	<li><a href="#">CONTACT</a></li> 	
+	<li><a href="#">ACCOUNT</a></li>
+</ul>
+</nav>
+
+<img src="images/cart.png" width="30px" height="30px">
+<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+
+</div>
+
+</div>
+
+	<!------single product detail------>
+
+<div class="small-container">
+   <div class="row">
+	<div class="col-2">
+	   <img src="images/gallery-1.jpg" width="100%">
+	</div>
+	<div class="col-2">
+	   <p>Home/T-Shirt</p>
+	   <h1>Red Printed T-Shirt by HRX</h1>
+	   <h4>$50.00</h4>
+	   <select>
+	     <option>Select Size</option>
+	     <option>XXL</option>
+	     <option>XL</option>
+	     <option>Large</option>
+	     <option>Medium</option>
+	     <option>Small</option>
+	  </select>
+	  <input type="number" value="1">
+	  <a href="" class="btn">Add To Cart</a>
+	  <h3>Products Details</h3>
+	</div>
+   </div>
+</div>
+s
+<div class="small-container">
+	<div class="row row-2">
+		<h2>All Products</h2>
+		<select>
+		   <option>default shorting</option>
+		   <option> Short By Price</option>
+		   <opton> Short By Popularity</option>
+		   <option> Short By Rating</option> 
+		   <option> Short By Sale</option>
+
+		</select>
+	</div>
+
+
+<div class="row">
+<div class="col-4">
+<img src="images/product-9.jpg">
+<h4>roadstar black color watch</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+</div>
+<p>$50.00</p>
+</div>
+
+<div class="col-4">
+<img src="images/product-10.jpg">
+<h4>black color-shoes for mens/footwear</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+<i class="fa fa-star-o"></i>
+</div>
+<p>$50.00</p>
+</div>
+<div class="col-4">
+<img src="images/product-11.jpg">
+<h4>dockstreet shoes for boys</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+</div>
+<p>$50.00</p>
+</div>
+<div class="col-4">
+<img src="images/product-12.jpg">
+<h4>nike black colored nightwear</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+</div>
+<p>$50.00</p>
+</div>
+
+</div>
+
+
+</div>
+	
+
+
+
+<!------footer----->
+<div class="footer">
+<div class="container">
+	<div class="row">
+    	    <div class="footer-col-1">
+		<h3>Downlod Our App</h3>
+		<p> Downlod App for Android and ios mobil phone.</p>
+		<div class="app-logo">
+			<img src="images/play-store.png">
+			<img src="images/app-store.png">
+		</div>
+	    </div>
+	    <div class="footer-col-2">
+		<img src="images/logo-white.png">
+		<p>Our Purpose Is To Sustainably Make the Pleasure and
+		Benifits of Sports Accessible to the Many. </p>
+	    </div>
+	    <div class="footer-col-3">
+		<h3>useful Links</h3>
+		<ul>
+			<li>Coupons</li>
+			<li>Blog Post</li>
+			<li>Return Policy</li>
+			<li>Join Affiliate</li>
+		</ul>
+	    </div>
+	    <div class="footer-col-4">
+		<h3>FOOLOW Us</h3>
+		<ul>
+			<li>facebook</li>
+			<li>twitter</li>
+			<li>instagram</li>
+			<li>youtube</li>
+		</ul>
+	    </div>
+	</div>
+		<hr>
+	     <p class="copyright">copyright 2020-M.R.Light</p>
+</div>
+</div>
+
+<!-------js for toggle-------->
+<script> 
+	var menuitems=document.getElementById("menuitems");
+	
+	menuitems.style.maxHeight="0px";
+	
+	function menutoggle(){
+	    if(menuitems.style.maxHeight=="0px")
+		{
+			menuitems.style.maxHeight="200px"
+		}
+	    else
+		{
+			menuitems.style.maxHeight="0px"
+		}
+	}
+</script>
+</body>
+</html>
